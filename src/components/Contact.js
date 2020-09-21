@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from '../documents/MichaelMurphy_Resume.pdf';
+import Resume from '../documents/MichaelMurphyResume.pdf';
 
 function Contact() {
 
