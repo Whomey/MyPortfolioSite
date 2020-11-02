@@ -18,9 +18,8 @@ function DisplayBio() {
                 </h3>
 
                 <p className="col-sm-8 col-sm-offset-2">
-                A Computer Science new graduate from State University of New York, Oswego.
+                A Computer Science new graduate from the State University of New York, Oswego.
                 <br></br><br></br>I'm a firm believer in approaching work and life with a growth mindset. My love for software development stems from this mindset as I get to learn something new everyday. 
-                I love the problem solving process. There's no better feeling than seeing the end result of time and effort.
                 </p>
             </div>
             <div className="col-sm-8 col-sm-offset-2" style={{borderBottom: "double gray 3px"}}></div>

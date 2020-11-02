@@ -38,11 +38,13 @@ function App() {
       <div className="row">
         <div className="text-center">
           {
-            repos.map(repo => (
-              <div className="col-sm-4" key={'repo_'+repo.name}>
-                <div className="col-sm-12 projects" style={{minHeight: "190px"}}>{Project([repo.name,repo.html_url,repo.description])}</div>
-              </div>
-            ))
+            repos.map(repo => {
+              if( repo.description != null ) {
+                return <div className="col-sm-4" key={'repo_'+repo.name}>
+                        <div className="col-sm-12 projects" style={{minHeight: "190px", minWidth: "120px"}}>{Project([repo.name,repo.html_url,repo.description])}</div>
+                      </div>
+              } 
+            })
           }
         </div>
       </div>
